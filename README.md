@@ -13,7 +13,7 @@
 
 | ID  | Caso de Teste  | Passos  | Resultado Esperado  | Status (Passou/Falhou) |
 |-----|---------------|---------|---------------------|------------------------|
-| CT01 | Testar login com senha errada | 1. Acessar o site do Steam  2. Ir para a tela de login  3. Digitar o Nome de Usuário correto e senha incorreta | 4. Clicar em "Entrar" | O site deve exibir uma mensagem de erro "Senha incorreta" | ✅ Passou |
+| CT01 | Testar login com senha errada | 1. Acessar o site do Steam  2. Ir para a tela de login  3. Digitar o Nome de Usuário correto e senha incorreta  4. Clicar em "Iniciar sessão" | O site deve exibir uma mensagem de erro "Senha incorreta" | ✅ Passou |
 
 ### *Teste 02 - Login sem preencher todos os campos*
 
@@ -25,13 +25,13 @@
 
 | ID  | Caso de Teste  | Passos  | Resultado Esperado  | Status (Passou/Falhou) |
 |-----|---------------|---------|---------------------|------------------------|
-| CT03 | Testar recuperação de senha com e-mail inválido | 1. Acessar a página de login  2. Clicar em "Esqueci minha senha"  3. Inserir um e-mail inválido  4. Clicar em "Enviar" | O sistema deve exibir uma mensagem de erro "E-mail não encontrado" | ✅ Passou |
+| CT03 | Testar recuperação de senha com e-mail inválido | 1. Acessar a página de login  2. Clicar em "Esqueci minha senha"  3. Inserir um e-mail inválido  4. Clicar em "Buscar" | O sistema deve exibir uma mensagem de erro "E-mail não encontrado" | ✅ Passou |
 
 ### *Teste 04 - Adicionar produto ao carrinho*
 
 | ID  | Caso de Teste  | Passos  | Resultado Esperado  | Status (Passou/Falhou) |
 |-----|---------------|---------|---------------------|------------------------|
-| CT04 | Verificar se um produto pode ser adicionado ao carrinho | 1. Acessar um produto na loja  2. Clicar no botão "Adicionar ao carrinho"  3. Ir até o carrinho de compras | O produto deve aparecer na lista de itens do carrinho | ✅ Passou |
+| CT04 | Verificar se um produto pode ser adicionado ao carrinho | 1. Acessar um produto na loja  2. Clicar no botão "Carrinho"  3. Ir até o carrinho de compras | O produto deve aparecer na lista de itens do carrinho | ✅ Passou |
 
 ### *Teste 05 - Logout do sistema*
 
